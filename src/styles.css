@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Salsa|Roboto|Aguafina+Script|Oswald');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  vertical-align: bottom;
+  background: linear-gradient(to bottom right, #08aeea, #2af598);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,5 @@
+<button type="addstudent" (click)="add()">add new Student</button>
+<button type="save" (click)="save()">Save changes</button>
+<div class="column" *ngFor="let studenti of students" ><app-student [student]="studenti"></app-student></div>
+
+

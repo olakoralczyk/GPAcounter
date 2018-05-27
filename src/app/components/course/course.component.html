@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="course.courseName" placeholder="CourseName:">
+<br>
+<app-grade *ngFor="let gradei of course.courseGrades" [grade]="gradei"></app-grade>
+<button type="addgrade" (click)="addGrade()">+</button>
+<div class="average">{{avg().toFixed(2)}}</div>
+<br>
+<br>
+<p>

@@ -1,0 +1,82 @@
+.page-top {
+  opacity: 1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.name1 {
+  text-align: center;
+  float: center;
+  font-size: 40px;
+  font-family: aguafina script;
+  display: inline;
+  color: #f5f5f5;
+  text-shadow: -1px -1px 1px #959595;
+  font-border: 1px solid #81acc4;
+  word-spacing: 0px;
+  font-weight: bold;
+}
+.name2 {
+  display: inline;
+  text-align: center;
+  float: center;
+  font-size: 45px;
+  font-family: oswald;
+  color: #f5f5f5;
+  text-shadow: -1px -1px 1px #959595;
+  text-transform: uppercase;
+  font-border: 1px solid #81acc4;
+  word-spacing: -2px;
+  font-weight: bold;
+}
+.mesh {
+  padding: 20px 20px;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+  margin-bottom: -70px;
+}
+.gradient {
+  background-image: linear-gradient(to left, transparent, #dfe1e1, transparent);
+  width: 100%;
+  position: center;
+}
+
+button[type="home"]{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Salsa";
+  font-size: 12px;
+  font-weight: normal;
+  min-width: 35px;
+  border: 0px solid transparent;
+  border-bottom-width: 1px;
+}
+button[type="about"]{
+  position: fixed;
+  bottom: 0;
+  left: 50px;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Salsa";
+  font-size: 12px;
+  font-weight: normal;
+  min-width: 35px;
+  border: 0px solid transparent;
+  border-bottom-width: 1px;
+}

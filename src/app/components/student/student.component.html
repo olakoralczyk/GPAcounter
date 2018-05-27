@@ -1,0 +1,5 @@
+<input type="text" [(ngModel)]="student.studentName" placeholder="StudentName:">
+<div *ngFor="let coursei of student.studentCourses" >
+    <app-course [course]="coursei"></app-course>
+</div>
+<button type="addcourse" (click)="addCourse()">+ add new subject</button>
