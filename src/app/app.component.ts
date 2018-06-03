@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import {DataBaseService} from './services/data-base.service';
+import { DataBaseService } from './services/data-base.service';
+import { Http, Headers } from '@angular/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +11,11 @@ import {DataBaseService} from './services/data-base.service';
 })
 export class AppComponent {
   title = 'app';
-  constructor(private data:DataBaseService){
+  constructor(private data: DataBaseService, private http: Http) {
+    const headers = new Headers();
+    headers.append('Accept', 'application/json');
+    headers.append('Authorization', 'Basic ' + btoa('user:password'));
+    //http.get('http://localhost:4200/home', {headers: headers}).subscribe();
   }
   test()  {
     console.log('cokol');
